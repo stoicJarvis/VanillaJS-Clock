@@ -1,5 +1,8 @@
 body{
-    background-color: black;
+    background-image: url('bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .clock {
