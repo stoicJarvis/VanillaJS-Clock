@@ -3,8 +3,8 @@ body{
 }
 
 .clock {
-    width: 25rem;
-    height: 25rem;
+    width: 20rem;
+    height: 20rem;
     border: 15px solid white;
     border-radius: 50%;
     margin: 50px auto;  
