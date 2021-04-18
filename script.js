@@ -15,5 +15,9 @@ function setDate() {
     const hour = now.getHours();
     const hourDegrees = ((hour / 12) * 360) + ((mins/60)*30) + 90;
     hourHand.style.transform = `rotate(${hourDegrees}deg)`;
+    
+    if(hour > 18 && hour < 6){
+        document.getElementById('body').style.backgroundColor = 'black';
+    }
 }
 setInterval(setDate, 1000);
